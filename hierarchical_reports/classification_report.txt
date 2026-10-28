@@ -1,0 +1,13 @@
+Hierarchical heads: R0 (0 vs rest), H0 (mixed 4), H2 (initiator), H3a (1 vs 3), H3b (2 vs 5). Inference uses path decoding over six leaves.
+              precision    recall  f1-score   support
+
+           0     0.3631    0.8799    0.5140     12330
+           1     0.5135    0.9007    0.6541     12289
+           2     0.8212    0.9862    0.8962     10137
+           3     0.8596    0.1786    0.2957     37170
+           4     0.2519    0.7556    0.3778       225
+           5     0.6239    0.8000    0.7010       510
+
+    accuracy                         0.5385     72661
+   macro avg     0.5722    0.7502    0.5731     72661
+weighted avg     0.7079    0.5385    0.4803     72661
